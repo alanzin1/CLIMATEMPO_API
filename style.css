@@ -1,0 +1,104 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1529688124-e6c364d3285c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5NTY1Nzc0MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+}
+
+.card-maior{
+
+    background-color: black;
+    border-radius: 20px;
+    opacity: 0.9;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.input-cidade{
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #59595977;
+    color: white;
+    width: calc(100% - 100px);
+}
+
+.botao-buscar{
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color:#59595977 ;
+    cursor: pointer;
+    float: right;
+}
+
+.imagem-buscar{
+
+    width: 25px;
+}
+
+.titulo-cidade{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+
+}
+
+.card-medio{
+
+    margin-top: 30px;
+}
+
+.temp{
+
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.card-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.previsao{
+
+    color: white;
+    margin-left: 10px;
+
+}
+
+.umidade{
+
+    color: white;
+    margin-top: 10px;
+}
+
+.titulo{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+  
+
+}
