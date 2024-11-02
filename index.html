@@ -1,56 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CLIMACONECT</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-    
-</head>
-<body>
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="card-maior">
-        <h1 class="titulo">CLIMACONECT</h1>
-        <input class="input-cidade" placeholder="Digite o nome da cidade">
-        <button onclick="clique()" class="botao-buscar"><img class="imagem-buscar" src="lupa.png" alt=""></button>
-        
-        <div class="card-medio">
-        <h2 class="titulo-cidade"></h2> 
+      <h1 class="titulo">CLIMACONECT</h1>
+      <div class="input">
+        <input class="input-cidade" placeholder="Digite o nome da cidade" />
+        <button onclick="clique()" class="botao-buscar">
+          <img class="imagem-buscar" src="lupa.png" alt="" />
+        </button>
+      </div>
+
+      <div class="card-medio">
+        <h2 class="titulo-cidade"></h2>
         <p class="temp"></p>
 
         <div class="card-menor">
-        <img class="img-previsao" src=""> 
-        <p class="previsao"></p>
-        </div> 
-
-        <p class="umidade"></p>  
+          <img class="img-previsao" src="" />
+          <p class="previsao"></p>
         </div>
 
-
-
-
-
-
+        <p class="umidade"></p>
+      </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-</body>
+  </body>
 </html>
